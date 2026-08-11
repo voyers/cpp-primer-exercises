@@ -12,6 +12,7 @@ int main()
     {
         numbers.push_back(line);//将输入的字符串存入向量中
     }
+    cout << "输入的字符串为：" << endl;
     for(auto s : numbers)//遍历向量中的每个字符串
     {
         cout << s << endl;//输出每个字符串
